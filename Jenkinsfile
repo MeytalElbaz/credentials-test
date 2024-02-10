@@ -1,0 +1,6 @@
+withCredentials([usernamePassword(credentialsId: '[PUT_YOUR_ID_HERE]', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
+
+  echo "Username: ${USER}" 
+  echo "Password: ${PASS}"
+  
+}
